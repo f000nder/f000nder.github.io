@@ -5,13 +5,47 @@
 }
 img{
 	display: block;
-	width: 100%;
+	width: 65%;
+	border-radius: 50%;
+	padding: 24px;
+	 
 }
 .wrapper{
 	max-width: 960px;
 	margin: 0 auto;
-	background: red;
+	background: lightgray;
+	display: flex;
 }
-.personal-link{
+.personal{
 	display: block;
+	padding: 10px;
+}
+.asdan{
+	padding: 10px;
+	border-bottom: 2px solid;
+	display: block;
+
+}
+.left{
+	background: lightslategrey;
+	width: 300px;
+	
+}
+.right{
+	padding: 15px;
+	margin: 0px;
+	display: block;
+	width: 600px;
+	border-bottom: solid #f8f9fa;
+	font-size: 125%;
+	font: b;
+
+}
+.answer{
+	display: block;
+	margin: 18px;
+	padding: 6px;
+	font-size: 90%;
+	font: caption;
+
 }
