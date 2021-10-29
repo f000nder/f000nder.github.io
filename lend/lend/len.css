@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron{
+	background-image: url(../img/jumbotron.jpg);
+	margin: 0 auto;
+	text-align: center;
+	background-position: ;
+	background-size: cover;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+.button{
+
+}
+a .button{
+	justify-content: center;
+}
+
+}
+.container{
+	
+}
+
+header .brand{
+	color: blue;
+	margin-top: 3px;
+
+}
+
+.jumbotron h1{
+color: white;
+margin-bottom: 55px;
+
+
+
+}
+.jumbotron a{
+	background: hotpink;
+	color: white;
+	justify-content: center;
+	font-size: small;
+	border-radius: 18px;
+
+	
+	
+}
+.jumbotron .button{
+	width: 20%;
+	height: 37px;
+	justify-content: center;
+
+	
+}
+
+header .menu{
+	
+	
+}
+
+@media (min-width: 600px){
+	header{
+		;
+	}
+}
+header{
+	flex-direction: column;
+	text-align: center;
+
+
+}
+.menu{
+	list-style-type: none;
+	text-decoration: none;
+	color: gray;
+}
+.services{
+	text-align: center;
+}
+.blog{
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+	color: lightgray;
+	display: inline-block;
+}
+footer{
+	text-align: center;
+	background: black;
+	color: lightgray;
+	background: rgb(0, 0, 0,0.7);
+	height: 100px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+footer ul{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-right: 10px;
+	font-size: small;
+}
+footer p{
+	color: white;
+	font-size: x-small;
+	margin-top: 20px;
+}
+header .brand{
+	padding-top: 20px;
+	font-style: normal;
+}
+.service{
+	color: gray;
+}
