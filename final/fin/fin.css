@@ -1,0 +1,418 @@
+@import url(fon.css);
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'HelveticaNeue';
+}
+
+
+header{
+	background-image: url(../fin/navbar.png);
+	
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+.main-menu{
+	background-image: url(../fin/Star.png);
+	background-position: center;
+	max-width: 100%;
+	background-size: cover;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.Starwar{
+	color: white;
+}
+.Watchtrailer{
+	color: white;
+}
+.ExploreGames{
+	color: white;
+}
+.burger, .menu{
+	color: white;
+}
+
+
+.main-menu img{
+	width: 100%;
+	height: 100%;
+	
+}
+.enter-top{
+	text-align: center;
+	padding-top: 20px;
+
+}
+.enter-top p, h3, h5{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.enter{
+	background-image: url(Rectangle1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.enter-img{
+	background-image: url(shapee.png);
+	width: 63px;
+	height: 64px;
+	
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+
+
+	
+}
+
+.Entertainment{
+	
+	max-height: 100%;
+	display: block;
+	justify-content: center;
+	text-align: center;
+
+
+	
+}
+
+.Entertainment .text1{
+	color: white;
+	font-size: xx-large;
+	padding-top: 20px;
+
+}
+.Entertainment .text2{
+
+	color: white;
+	font-size: x-large;
+}
+
+
+
+
+
+.img{
+	background-image: url(../fin/shapee.png);
+	
+	
+}
+
+.hide-menu{
+	opacity: 0;
+	height: 0;
+	transition: height 1s ease-in;
+}
+
+.items{
+	
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+
+	
+}
+
+.duty-main-menu{
+	background-image: url(Reee.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.dsg-lab{
+background-image: url(hhh.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.gray-btn{
+	width: 207px;
+	height: 60px;
+	background: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	color: white;
+	margin: 10px	auto;
+}
+.green-btn{
+	width: 278px;
+	height: 60px;
+	background:  #8DD83D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin: 10px auto;
+	color: white;
+
+}
+.dsg-lab p{
+	flex-wrap: wrap;
+	width: 320px;
+	margin-left: 60px;
+}
+
+.item1 {
+	
+	text-align: center;
+	width: 320px;
+	height: 380px;
+	border-radius: 4px;
+	border: 1px solid #8DD83D;
+	background: white;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+
+	
+
+}
+
+.Games-name, .enter-name{
+	color:  #435766;
+	margin-left: 25px;
+	margin-top: 15px;
+
+}
+.description{
+	color: #435766;
+	font-size: 21px;
+	line-height: 25px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+
+
+
+.item2 {
+	
+	text-align: center;
+	width: 320px;
+	height: 380px;
+	border-radius: 4px;
+	border: 1px solid #8DD83D;
+	background: white;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+
+	
+
+}
+
+
+	
+.enter-top p, h3, h5{
+	text-align: center;
+}
+
+
+
+
+
+	
+
+
+.link-duty{
+	text-decoration: none;
+}
+
+
+
+.Games{
+	background-image: url(../fin/Rect.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100%;
+	display: block;
+	justify-content: center;
+	
+}
+.Games-items, .enter-items{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ .Games-item1-img{
+	width: 100%;
+}
+img{
+	width: 100%;
+	max-height: 180px;
+}
+.game-block, .enter-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 320px;
+	min-height: 380px;
+	border-radius: 4px;
+	border: 1px solid #8DD83D;
+	background: white;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.content-wrapper{
+	
+}
+.Games-text{
+
+}
+
+.enter-item1-img, .Games-item1-img{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	width: 100%;
+	display: block;
+}	
+.Games-text{
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+.games-btn, .enter-btn{
+	width: 260px;
+	height: 50px;
+	background: #8DD83D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 4px;
+	color: white;
+	margin-bottom: 25px;
+
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	background: #373A3C;
+
+}
+.footer-menu ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	border-bottom: white;
+
+}
+.active{
+	color: green;
+}
+.social {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.social li{
+	margin-bottom: 8px;
+}
+.facebook{
+	background-image: url(face.png);
+	width: 11px;
+	height: 20px;
+	
+}
+.twitter{
+	background-image: url(Twitter.png);
+	height: 18px;
+	width: 21px;
+
+
+}
+.instagram{
+	background-image: url(Instagram.png);
+	height: 19px;
+	width: 19px;
+
+
+}
+.language, .corpor{
+	color: white;
+}
+
+@media (min-width: 600px){
+	.items{
+		display: flex;
+		ju
+	}
+
+
+	.Games-items, .enter-items{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+
+	}
+
+	.game-block,.enter-block{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.footer-m{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.footer-menu{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
